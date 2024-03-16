@@ -11,8 +11,9 @@ function createWindow() {
     height: 720,
     resizable: true,
     title: 'Chess.com',
+    icon: path.join(__dirname, 'icons/pawn.png'),
     webPreferences: {
-      nodeIntegration: false, 
+      nodeIntegration: true, 
       contextIsolation: true, 
     }
   });
@@ -47,4 +48,4 @@ app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit();
   }
-});s
+});
