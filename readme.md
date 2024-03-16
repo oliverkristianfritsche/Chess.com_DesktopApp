@@ -60,3 +60,9 @@ npm install electron-packager -g
   ```
   electron-packager . --platform=linux --arch=x64
   ```
+
+3. **TODO**
+
+- add exectuables in read me
+- fix executable icon
+- Add local solver and eval bar
