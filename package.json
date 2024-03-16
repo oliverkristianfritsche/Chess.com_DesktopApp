@@ -1,5 +1,5 @@
 {
-  "name": "chess.com_desktopapp",
+  "name": "Chess.com",
   "version": "1.0.0",
   "description": "",
   "main": "client_window.js",
@@ -11,10 +11,19 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "electron": "^29.1.4"
+    "electron": "^29.1.4",
+    "electron-packager": "^17.1.2"
   },
   "dependencies": {
     "@cliqz/adblocker-electron": "^1.26.16",
     "cross-fetch": "^4.0.0"
+  },
+  "build": {
+    "appId": "Chess.com",
+    "win": {
+      "target": "portable",
+      "icon": "icons/pawn.ico"
+    }
   }
+  
 }
