@@ -1,5 +1,7 @@
 # Chess.com Electron App with adblock
 
+![Alt text](icons/pawn.png)
+
 This application is a straightforward Electron-based wrapper for Chess.com, designed to enhance your experience by providing an ad-free browsing environment through an integrated ad blocker.
 
 ## Prerequisites
